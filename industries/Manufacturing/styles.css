@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform .2s;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}

@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "hjLabs.in",
+  "description": "hjLabs.in offers AI-driven Natural Language Processing solutions like sentiment analysis, chatbots, text summarization, and translation services for businesses to improve communication, data-driven insights, and customer experiences.",
+  "image": "https://your-website.com/path/to/your/logo.jpg", 
+  "telephone": "+917016525813",
+  "email": "info@hjlabs.in",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Your Street Address",
+    "addressLocality": "Your City",
+    "addressRegion": "Your Region",
+    "postalCode": "Your Postal Code",
+    "addressCountry": "Your Country"
+  },
+  "url": "https://your-website.com",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Sentiment Analysis",
+        "itemListElement": {
+          "@type": "Service",
+          "name": "Sentiment Analysis",
+          "description": "Analyze user-generated content like reviews, comments, or social media posts to understand customer sentiment towards a brand, product, or service. This can help businesses make data-driven decisions and improve customer experience."
+        }
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Chatbot/Conversational AI",
+        "itemListElement": {
+          "@type": "Service",
+          "name": "Chatbot/Conversational AI",
+          "description": "Develop AI-powered chatbots and virtual assistants for customer support, sales, and general inquiries. These chatbots can handle user queries in natural language, providing timely and relevant responses, and reducing the workload on human agents."
+        }
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Text Summarization",
+        "itemListElement": {
+          "@type": "Service",
+          "name": "Text Summarization",
+          "description": "Offer services to automatically generate concise summaries of long documents, articles, or reports. This can help businesses and individuals save time by quickly understanding the main points of large text documents without reading the entire content."
+        }
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Machine Translation",
+        "itemListElement": {
+          "@type": "Service",
+          "name": "Machine Translation",
+          "description": "Provide automated translation services for various languages, allowing businesses to reach global audiences and communicate effectively with customers, partners, or employees who speak different languages."
+        }
+      },
+    }
+}
+

@@ -1,0 +1,270 @@
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+}
+
+.welcome-section {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.full-screen-div {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-md-4 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 15px; 
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+#fluid-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.spacing {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.fullscreen-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.fullscreen-container h1,
+.fullscreen-container p {
+  text-shadow: 0 0 100px rgba(255, 255, 255, 0.9), 0 0 150px rgba(255, 255, 255, 0.8);
+  margin-bottom: 1em;
+}
+
+.fullscreen-container p {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
+
+/* Custom CSS */
+.project-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #666;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.carousel-item .row {
+  margin-top: 2rem;
+}
+
+.carousel-item .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-fluid {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.industry-item {
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.industry-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.industry-item a:hover {
+  color: inherit;
+}
+
+.industry-item:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.industry-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.industry-item h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.industry-item p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+
+body {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1 !important;
+}
+
+
+
+.service-item {
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.service-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.service-item a:hover {
+  color: inherit;
+}
+
+.service-item:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.service-item img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+body {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1 !important;
+}
+
+
+
+
+
+
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-content {
+  transition: 0.3s;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.section-content:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}

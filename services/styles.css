@@ -1,0 +1,50 @@
+.service-item {
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.service-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.service-item a:hover {
+  color: inherit;
+}
+
+.service-item:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.service-item img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+body {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1 !important;
+}
+

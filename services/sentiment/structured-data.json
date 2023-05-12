@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Sentiment analysis Consultation",
+    "description": "Empower your business with expert Sentiment analysis and AI solutions to transform your operations",
+    "url": "https://hjlabs.in",
+    "image": "../../pics/sentiment-analysys.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "hjLabs.in, Shed No.:180, Mahavir Industrial Part -2, Kathvada GIDC, Ahmedabad",
+      "addressLocality": "Kathvada GIDC",
+      "addressRegion": "Gujarat",
+      "postalCode": "382430",
+      "addressCountry": "India"
+    },
+    "telephone": "+917016525813",
+    "email": "info@hjlabs.in",
+    "priceRange": "$$",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://hjlabs.in/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "35",
+        "availability": "https://schema.org/InStock",
+        "url": "https://hjlabs.in/pricing"
+      }
+  }
+  

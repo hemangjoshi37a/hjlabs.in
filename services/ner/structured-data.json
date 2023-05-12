@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Named Entity Recognition (NER) & Token Classification in Python",
+    "description": "Expert services in named entity recognition (NER) and token classification using Python, Hugging Face, and spaCy for processing unstructured text data. Enhance your business's decision-making with our solutions.",
+    "url": "https://hjlabs.in/services/ner",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hjlabs.in"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Named Entity Recognition (NER) & Token Classification",
+          "item": "https://hjlabs.in/services/ner"
+        }
+      ]
+    },
+    "mainEntity": {
+      "@type": "Service",
+      "name": "Named Entity Recognition (NER) & Token Classification Services",
+      "serviceType": "Named Entity Recognition (NER) & Token Classification",
+      "areaServed": "Worldwide",
+      "provider": {
+        "@type": "Organization",
+        "name": "Your Company Name",
+        "url": "https://hjlabs.in",
+        "logo": "https://hjlabs.in/path/to/logo.png",
+        "email": "info@hjlabs.in"
+      },
+      "description": "Our expert services in named entity recognition (NER) and token classification help businesses process large volumes of unstructured text data, generating valuable insights for better decision-making.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "35",
+        "availability": "https://schema.org/InStock",
+        "url": "https://hjlabs.in/services/ner"
+      }
+    }
+  }
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .typing-text {
+            border-right: 0.15em solid #333;
+            animation: typing 10s steps(500, end), blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: #333;
+            }
+        }
+        body {
+            background-color: transparent;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="text-container"></div>
+    <script>
+        const textData = 'Our e-commerce platform offers Product XYZ with SKU: ABC123, manufactured by MFR: TechCorp, MPNs: 12345-678, and available in a QTY of 50.';
+
+        const entities = [
+            { start: 53, end: 59, label: 'SKU', color: 'bg-warning' },
+            { start: 82, end: 90, label: 'MFR', color: 'bg-success' },
+            { start: 98, end: 107, label: 'MPNs', color: 'bg-danger' },
+            { start: 135, end: 137, label: 'QTY', color: 'bg-warning' },
+        ];
+
+
+        let finalHTML = '';
+        let previousEnd = 0;
+
+        for (const entity of entities) {
+            const beforeEntity = textData.slice(previousEnd, entity.start);
+            const entityText = `<mark class="${entity.color}">${textData.slice(entity.start, entity.end)}</mark>`;
+            const label = `<span class="badge badge-pill ${entity.color} ml-1">${entity.label}</span>`;
+            finalHTML += beforeEntity + entityText + label;
+            previousEnd = entity.end;
+        }
+
+        finalHTML += textData.slice(previousEnd);
+
+        const typingAnimation = (element, text, index) => {
+            if (index < text.length) {
+                element.innerHTML = text.substring(0, index + 1);
+                setTimeout(() => typingAnimation(element, text, index + 1), 20);
+            } else {
+                element.innerHTML = text;
+            }
+        }
+
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const textContainer = document.getElementById('text-container');
+            textContainer.innerHTML = '<span class="typing-text"></span>';
+            typingAnimation(textContainer, finalHTML, 0);
+        });
+    </script>
+</body>
+
+</html>
