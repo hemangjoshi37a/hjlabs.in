@@ -1,0 +1,39 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI Text Summarization",
+    "description": "Boost your content understanding with our AI-powered text summarization services. Discover our cutting-edge platform to generate concise summaries for various industries and use cases, enhancing insights and efficiency for your business.",
+    "url": "https://hjlabs.in/services/summarization/",
+    "image": "../../pics/text_summerization.png",
+    "provider": {
+      "@type": "Organization",
+      "name": "hjLabs",
+      "url": "https://hjlabs.in",
+      "logo": "https://hjlabs.in/pics/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "hjLabs.in, Shed No.:180, Mahavir Industrial Part -2, Kathvada GIDC, Ahmedabad",
+        "addressLocality": "Kathvada GIDC",
+        "addressRegion": "Gujarat",
+        "postalCode": "382430",
+        "addressCountry": "India"
+      },
+      "telephone": "+917016525813",
+      "email": "info@hjlabs.in"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://hjlabs.in/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "99.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2023-05-02",
+      "validThrough": "2045-12-31",
+      "url": "https://hjlabs.in/services/summarization"
+    }
+  }
+  

@@ -1,0 +1,59 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+opacity: 1 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero section */
+.jumbotron {
+    padding: 1rem;
+}
+
+/* Packages section */
+#packages {
+    padding: 2rem 0;
+}
+
+.package-card {
+    margin-bottom: 2rem;
+}
+
+.package-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Ratings section */
+#ratings {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+}
+
+/* FAQ section */
+#faq {
+    padding: 2rem 0;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+}
+
+.card {
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card-body {
+    height: 200px;
+  }

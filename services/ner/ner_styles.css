@@ -1,0 +1,58 @@
+.typing-text {
+    border-right: 0.15em solid #333;
+    animation: typing 10s steps(500, end), blink-caret 0.75s step-end infinite;
+  }
+  
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+  }
+  
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-text {
+    margin-bottom: 0.5rem;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #333;
+    }
+  }
+  
+
+
+
+body {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1 !important;
+}

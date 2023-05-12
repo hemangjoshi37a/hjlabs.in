@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .typing-text {
+            border-right: 0.15em solid #333;
+            animation: typing 10s steps(500, end), blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: #333;
+            }
+        }
+        body {
+            background-color: transparent;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="text-container"></div>
+    <script>
+        const textData = 'In a recent financial report, the company MegaCorp Inc. (stock symbol: MGC) announced a quarterly revenue increase, which led to a surge in stock prices. The event sparked interest among investors and market analysts.';
+
+        const entities = [
+            { start: 12, end: 28, label: 'DOCUMENT', color: 'bg-warning' },
+            { start: 42, end: 55, label: 'ORG', color: 'bg-success' },
+            { start: 71, end: 74, label: 'TICKER', color: 'bg-info' },
+            { start: 91, end: 111, label: 'FIN_EVENT', color: 'bg-primary' },
+            { start: 131, end: 144, label: 'FIN_EVENT', color: 'bg-primary' },
+            { start: 160, end: 169, label: 'ROLE', color: 'bg-danger' },
+            { start: 174, end: 189, label: 'ROLE', color: 'bg-danger' },
+        ];
+
+
+        let finalHTML = '';
+        let previousEnd = 0;
+
+        for (const entity of entities) {
+            const beforeEntity = textData.slice(previousEnd, entity.start);
+            const entityText = `<mark class="${entity.color}">${textData.slice(entity.start, entity.end)}</mark>`;
+            const label = `<span class="badge badge-pill ${entity.color} ml-1">${entity.label}</span>`;
+            finalHTML += beforeEntity + entityText + label;
+            previousEnd = entity.end;
+        }
+
+        finalHTML += textData.slice(previousEnd);
+
+        const typingAnimation = (element, text, index) => {
+            if (index < text.length) {
+                element.innerHTML = text.substring(0, index + 1);
+                setTimeout(() => typingAnimation(element, text, index + 1), 20);
+            } else {
+                element.innerHTML = text;
+            }
+        }
+
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const textContainer = document.getElementById('text-container');
+            textContainer.innerHTML = '<span class="typing-text"></span>';
+            typingAnimation(textContainer, finalHTML, 0);
+        });
+    </script>
+</body>
+
+</html>

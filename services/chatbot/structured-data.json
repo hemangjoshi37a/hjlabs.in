@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AI Chatbots & Virtual Assistants | Improve Customer Support | AI Company",
+    "description": "Boost your customer support with AI chatbots and virtual assistants. Explore our chatbot development platform to create personalized interactions, 24/7 support, and increased efficiency for your business.",
+    "url": "https://hjlabs.in/services/chatbot",
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://hjlabs.in"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "AI Chatbots & Virtual Assistants",
+            "item": "https://hjlabs.in/services/chatbot"
+        }
+        ]
+    },
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://hjlabs.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    "mainEntity": {
+        "@type": "Organization",
+        "name": "hjLabs.in",
+        "logo": "https://hjlabs.in/pics/logo.png",
+        "url": "https://hjlabs.in",
+        "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+917016525813",
+        "contactType": "Customer Service",
+        "areaServed": "Worldwide",
+        "availableLanguage": ["English", "Hindi", "Gujarati"]
+        }
+    }
+    }

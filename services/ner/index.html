@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Expert services in named entity recognition (NER) and token classification using Python, Hugging Face, and spaCy for processing unstructured text data. Enhance your business's decision-making with our solutions.">
+    <meta name="keywords"
+        content="named entity recognition, token classification, NER, unstructured text data, machine learning, nlp, deep learning, Python, Hugging Face, spaCy, TensorFlow, PyTorch, scikit-learn, Keras">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>Named Entity Recognition (NER) & Token Classification in Python</title>
+</head>
+
+<body>
+    <header>
+        <div id="navbar"></div>
+    </header>
+
+    <main>
+        <div class="container">
+            <ol class="breadcrumb" id="breadcrumb"></ol>
+        </div>
+
+        <section class="container mt-5 mb-5">
+            <div class="mt-5 mb-5">
+                <div class="col">
+                    <div id="text-container" class="d-inline"></div>
+                </div>
+            </div>
+
+            
+
+            <h1>Named Entity Recognition (NER) & Token Classification</h1>
+            <p>Boost your business's decision-making with our expert services in named entity recognition (NER) and token classification,
+                employing Python, Hugging Face, and spaCy. Our solutions process large volumes of unstructured text data, generating
+                valuable insights for your business.</p>
+            <p>Our NER services identify and extract relevant entities like names, organizations, locations, and more from unstructured text
+                data. Leveraging our expertise in named entity recognition, you can extract valuable insights from your data and make better
+                decisions for your business.</p>
+            <p>Token classification, a vital aspect of information extraction, involves labeling tokens in text. Our token classification
+                services analyze text data and uncover relationships between entities, empowering you to make data-driven decisions
+                propelling your business forward.</p>
+
+                
+        </section>
+
+
+        <section class="container mt-5">
+            <h2>Example Use Cases</h2>
+            <article class="row mb-4" style="background-color: #D6EAF8;">
+                <div class="col-md-6 mt-5 mb-4">
+                    <div class="iframe-container">
+                        <iframe src="ner_news.html" style="width: 100%; height: 100%; border: none;" allowfullscreen
+                            allowTransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mb-4">
+                    <h3>News Article NER with Python, Hugging Face, and SpaCy</h3>
+                    <p>News agencies can employ our named entity recognition (NER) services using Python, Hugging Face, and SpaCy to analyze
+                        news articles and automatically identify and categorize entities, such as people, locations, and organizations. This
+                        can aid in content recommendation, summarization, and the generation of insights for better decision-making.</p>
+                </div>
+            </article>
+            <article class="row mb-4" style="background-color: #D5F5E3;">
+                <div class="col-md-6 mt-5 mb-4">
+                    <h3>E-commerce Product Token Classification with BERT and PyTorch</h3>
+                    <p>E-commerce platforms can benefit from our token classification services using BERT and PyTorch to analyze product
+                        descriptions and automatically identify and categorize entities, such as SKUs, MFRs, MPNs, and quantities. This
+                        enables enhanced product search, recommendation, and user sentiment analysis, ultimately leading to better customer
+                        experiences and data-driven decision-making processes.</p>
+                </div>
+                <div class="col-md-6 mt-5 mb-4">
+                    <div class="iframe-container">
+                        <iframe src="ner_product.html" style="width: 100%; height: 100%; border: none;" allowfullscreen
+                            allowTransparency="true"></iframe>
+                    </div>
+                </div>
+            </article>
+            <article class="row mb-4" style="background-color: #FDEBD0;">
+                <div class="col-md-6 mt-5 mb-4">
+                    <div class="iframe-container">
+                        <iframe src="ner_healthcare.html" style="width: 100%; height: 100%; border: none;" allowfullscreen
+                            allowTransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mb-4">
+                    <h3>Healthcare Data NER with LSTM-CNNs and Token Classification</h3>
+                    <p>Healthcare organizations can leverage our NER with bidirectional LSTM-CNNs and token classification services to
+                        analyze medical records and research articles, enabling the automatic identification and categorization of entities
+                        such as patient names, symptoms, and treatment-related information. This can assist in decision support, research,
+                        and data management, leading to improved patient care and streamlined healthcare processes.</p>
+                </div>
+            </article>
+            <article class="row mb-4" style="background-color: #EBDEF0;">
+                <div class="col-md-6 mt-5 mb-4">
+                    <h3>Financial Data Token Classification using NLP and Machine Learning</h3>
+                    <p>Financial institutions can employ our NLP and machine learning expertise to perform token classification on financial
+                        reports, news articles, and social media content, facilitating the automatic identification of entities like company
+                        names, stock symbols, and financial events. This can enhance investment analysis, risk assessment, and compliance,
+                        ultimately leading to better-informed financial decisions and optimized operations.</p>
+                </div>
+                <div class="col-md-6 mt-5 mb-4">
+                    <div class="iframe-container">
+                        <iframe src="ner_finance.html" style="width: 100%; height: 100%; border: none;" allowfullscreen
+                            allowTransparency="true"></iframe>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Add more use case examples here -->
+        </section>
+
+        <section class="container mt-8">
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h2>Why Choose Us?</h2>
+                    <ul>
+                        <li>Assisting in selecting or creating datasets tailored to your application</li>
+                        <li>Guidance in choosing, training, and implementing ML models</li>
+                        <li>Expert recommendations for appropriate inference and training hardware</li>
+                        <li>Enhancing and optimizing your existing ML workflows</li>
+                        <li>Proficiency in Python programming, Machine Learning, NLP, and Deep Learning</li>
+                        <li>Delivering high-quality, performance-driven solutions</li>
+                        <li>Providing 24/7 support with ongoing assistance after project completion</li>
+                        <li>Placing the utmost importance on client satisfaction</li>
+                        <li>Years of experience working with diverse clients on a wide array of projects</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Technologies Used</h2>
+                    <p>Our software services are powered by the following technologies:</p>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <ul>
+                                <li>Python</li>
+                                <li>TensorFlow</li>
+                                <li>Pandas</li>
+                                <li>PyTorch</li>
+                                <li>Scikit-learn</li>
+                                <li>XGBoost</li>
+                                <li>LightGBM</li>
+                                <li>CatBoost</li>
+                                <li>Gensim</li>
+                                <li>FastText</li>
+                                <li>OpenCV</li>
+                                <li>Gensim</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <ul>
+                                <li>TensorFlow</li>
+                                <li>Keras</li>
+                                <li>NumPy</li>
+                                <li>SciPy</li>
+                                <li>H2O.ai</li>
+                                <li>Statsmodels</li>
+                                <li>NLTK</li>
+                                <li>spaCy</li>
+                                <li>scikit-image</li>
+                                <li>Theano</li>
+                                <li>Hugging Face Transformers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- packages here -->
+        <div id="packages"></div>
+        
+        <!-- ratings here -->
+        <div id="ratings"></div>
+
+        <!-- faq here -->
+        <div id="faq_placeholdere"></div>
+
+
+        <section class="container">
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <h2>Contact Us Today</h2>
+                    <p>Ready to get started? Contact our team of experts to discuss your token classification needs and discover how our
+                        services
+                        can help your business thrive. Fill out our contact form or reach out to us directly via phone or email. We look
+                        forward to
+                        working with you!</p>
+                    <a href="mailto:info@hjlabs.in" class="btn btn-primary">Contact Us for a Free Consultation</a>
+                </div>
+                <!-- <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <div class="card shadow" id="github-profile">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+	<script src="./../../tawk-to.js" crossorigin="anonymous"></script>
+    <script src="load-navbar.js" crossorigin="anonymous"></script>
+    <script src="ner.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
