@@ -74,6 +74,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+
+//try our apps
+document.addEventListener('DOMContentLoaded', function () {
+  fetch('tryapp.html')
+    .then(response => {
+      if (response.status === 200 || response.status === 0) {
+        return response.text();
+      }
+      throw new Error('Failed to load footer.html');
+    })
+    .then(html => {
+      document.getElementById('tryapp-placeholder').innerHTML = html;
+    })
+    .catch(error => {
+      console.error('Error fetching footer:', error);
+    });
+});
+
+
+
+
 // load industries
 // Parse the CSV file and generate the industries section
 $(document).ready(function () {
