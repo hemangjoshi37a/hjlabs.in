@@ -1,20 +1,22 @@
 .footer {
     background-color: #F9F9FF;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.footer a {
+    text-decoration: none;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-around;
-    ;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding: 2em 0;
     background-image: url("./components/blob6.png");
     background-size: cover;
 }
 
-
-
-/* .contactdetails{ } */
 .footer-contactdetail>img {
     width: 25px;
     margin-right: 10px;
@@ -24,13 +26,18 @@
     font-size: 20px;
     display: flex;
     margin: 5px;
+    align-items: center;
 }
-
 
 .footer-content-rightside {
     display: flex;
     justify-content: space-around;
     width: 70%;
+    flex-wrap: wrap;
+}
+
+.footer-services, .footer-industries, .footer-visitor-counter {
+    margin-bottom: 2em;
 }
 
 .footer-bottom {
@@ -38,8 +45,37 @@
     justify-content: space-between;
     background-color: #C7CADD;
     padding: 1em;
+    align-items: center;
 }
 
 .footer-privacy-policy>a {
     color: black;
 }
+
+.footer-copyright {
+    font-size: 0.875em;
+}
+
+.footer-services a, .footer-industries a {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.footer-services table, .footer-industries table, .footer-visitor-counter table {
+    border: none;
+}
+
+
+.translucent-navbar {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    /* Adjust the alpha value (0.8) for desired transparency */
+  }
+
+  .hollow-text {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    /* Stroke width and color */
+  }

@@ -131,3 +131,10 @@ $(document).ready(function () {
     }
   });
 });
+
+  // this is a linkedin profile to which I want to sell AI/ML services that could be helpful in the business this person is doing. write me appropriate mesage to gain order from him.
+  // consider that my name is `Hemang Joshi`, my business's name is `hjLabs.in` and my mobile number is `+917016525813`, my email is `info@hjlabs.in`.
+  // this is my github profile : `https://github.com/hemangjoshi37a` . My google playstore profile is : `https://play.google.com/store/apps/dev?id=6100555638019921497`
+  // here is my GrabCad profile : `https://grabcad.com/hemang.joshi-1/models`
+  // here is my google business profie : `https://www.google.com/search?q=hjlabs.in`
+  // this is my youtube channel : `https://www.youtube.com/channel/UC0ptCKj6xe10dPdV6H_JEpA`

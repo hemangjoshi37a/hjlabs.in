@@ -3,72 +3,12 @@
 	<url>
 		<loc>https://www.hjlabs.in</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/test.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-01</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/services.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-03</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/services</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/ratings.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-02</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/privacy-policy.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-08</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/packages.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-04-30</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/nav.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-08</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/footer.html</loc>
-		<priority>0.75</priority>
 		<lastmod>2023-05-14</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/external.html</loc>
+		<loc>https://www.hjlabs.in/career.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-05-09</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/dei.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/contact-us.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/about-us.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2023-05-06</lastmod>
+		<lastmod>2023-05-14</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/3D_droplets_BG.html</loc>
@@ -76,117 +16,72 @@
 		<lastmod>2023-04-21</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/translation</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-03</lastmod>
+		<loc>https://www.hjlabs.in/about-us.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/summarization</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-03</lastmod>
+		<loc>https://www.hjlabs.in/contact-us.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/sentiment</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-03</lastmod>
+		<loc>https://www.hjlabs.in/dei.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-07</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/ner</loc>
-		<priority>0.50</priority>
+		<loc>https://www.hjlabs.in/external.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-09</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/footer.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/nav.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/packages.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-04-30</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/privacy-policy.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/ratings.html</loc>
+		<priority>0.75</priority>
 		<lastmod>2023-05-02</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/data-augmentation</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-04</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/services/chatbot</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-02</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/old_files/ner_new.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-04-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/old_files/ner3.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-04-26</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/old_files/index__.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-04-26</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/old_files/__script.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-04-24</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Travel and Hospitality</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-08</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Transportation and Logistics</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-08</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Telecommunications</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-08</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Security and Surveillance</loc>
-		<priority>0.50</priority>
+		<loc>https://www.hjlabs.in/services</loc>
+		<priority>0.75</priority>
 		<lastmod>2023-05-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/industries/Retail and E-commerce</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
+		<loc>https://www.hjlabs.in/services.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-03</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/industries/Media and Entertainment</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
+		<loc>https://www.hjlabs.in/test.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-01</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/industries/Marketing and Advertising</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Manufacturing</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Human Resources</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Healthcare</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Finance</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Energy</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-05-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/industries/Education</loc>
+		<loc>https://www.hjlabs.in/industries/Agriculture</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-05-06</lastmod>
 	</url>
@@ -196,57 +91,132 @@
 		<lastmod>2023-05-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/industries/Agriculture</loc>
+		<loc>https://www.hjlabs.in/industries/Education</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-05-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/translation/faq.html</loc>
-		<priority>0.25</priority>
+		<loc>https://www.hjlabs.in/industries/Energy</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Finance</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Healthcare</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Human Resources</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Manufacturing</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Marketing and Advertising</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Media and Entertainment</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Retail and E-commerce</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Security and Surveillance</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Telecommunications</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-08</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Transportation and Logistics</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-08</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/industries/Travel and Hospitality</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-08</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/old_files/__script.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-04-24</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/old_files/index__.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-04-26</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/old_files/ner3.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-04-26</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/old_files/ner_new.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-04-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/chatbot</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-02</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/data-augmentation</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-04</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/ner</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-02</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/sentiment</loc>
+		<priority>0.50</priority>
 		<lastmod>2023-05-03</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/summarization/faq.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-05-01</lastmod>
+		<loc>https://www.hjlabs.in/services/summarization</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-03</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/sentiment/faq.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-04-30</lastmod>
+		<loc>https://www.hjlabs.in/services/translation</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-05-03</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/ner/ner_product.html</loc>
+		<loc>https://www.hjlabs.in/industries/Energy/index copy.html</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-04-28</lastmod>
+		<lastmod>2023-05-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/ner/ner_news.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-04-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/services/ner/ner_healthcare.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-04-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/services/ner/ner_finance.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-04-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/services/ner/ner_faq.html</loc>
+		<loc>https://www.hjlabs.in/services/chatbot/faq.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-04-30</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/ner/ner_animation.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-04-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.hjlabs.in/services/data-augmentation/packages.html</loc>
+		<loc>https://www.hjlabs.in/services/chatbot/packages.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-05-03</lastmod>
 	</url>
@@ -256,18 +226,53 @@
 		<lastmod>2023-05-03</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/chatbot/packages.html</loc>
+		<loc>https://www.hjlabs.in/services/data-augmentation/packages.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-05-03</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/services/chatbot/faq.html</loc>
+		<loc>https://www.hjlabs.in/services/ner/ner_animation.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-04-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/ner/ner_faq.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-04-30</lastmod>
 	</url>
 	<url>
-		<loc>https://www.hjlabs.in/industries/Energy/index copy.html</loc>
+		<loc>https://www.hjlabs.in/services/ner/ner_finance.html</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-05-06</lastmod>
+		<lastmod>2023-04-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/ner/ner_healthcare.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-04-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/ner/ner_news.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-04-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/ner/ner_product.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-04-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/sentiment/faq.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-04-30</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/summarization/faq.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-05-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/services/translation/faq.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-05-03</lastmod>
 	</url>
 </urlset>
