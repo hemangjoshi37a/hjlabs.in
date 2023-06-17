@@ -1,48 +1,126 @@
-<div class="tryapp" style="font-family: Liberation Sans;">
-    <link rel="stylesheet" href="tryapp.css">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div><h1>Try our app</h1></div>
-    <div>
-        <table>
-            <tr><td><img src="/components/swiboard-logo.png" height="3%"></td><td><div class = "app-heading" >SWiBoard :Tasmota MQTT Control</div></td></tr>
-        </table>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive App Display</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .app-heading {
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 10px;
+        }
+        
+        .app-info {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .app-img {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        .app-img img {
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .info-container {
+            margin-top: 20px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: #ff6347;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background .3s;
+        }
+        
+        .download-btn:hover {
+            background: #ee5a24;
+        }
+    </style>
+</head>
 
-    <div class="content">
-    
-        <div class = "app-info"style="padding-left: 0%;">
-            <div>
-                <table>
-                    <tr><td><div class="info-container" > About</div></td></tr>
-                    <tr><td><span style="font-size: large;">allows users to control thier tasmota devices from anywhere in the world using MQTT confugured tasmota device. It automatically configures the app using MQTT. </span> </td></tr>
-                    <tr><td><div class="info-container">How to use ?</div></td></tr>
-                    <tr><td><span style=" font-size: large;">Step 1 : Connect tasmota device to internet enabled wifi connectionStep <br>2 : Configure MQTT inside tasmota device </span> </td></tr>
-                    <tr><td><div style="margin: 60px; margin-left: 0px;"><a href="https://play.google.com/store/apps/details?id=in.hjlabs.swiboard" target="_blank"><img src="./components/trynow-link.png"></a></div></td></tr>
-                </table>
+<body>
+    <div class="container mt-5">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h1 class="font-weight-light">Try our <span class="text-primary">apps</span></h1>
+                <p class="lead text-muted">Explore our selection of the best free apps.</p>
             </div>
         </div>
-        <div class = "mobile-image"><img src="/components/swiboard-mockup2.png" style=" align-self: end; "> <img src="./components/swiboard-mockup.png" style=" align-self: end; "> </div>
-    </div>
 
-    <div style="margin-top:90px ;">
-        <table>
-            <tr><td><img src="/components/searchmobile-logo.png" height="3%"></td><td><div class = "app-heading" >Search Mobile Number</div></td></tr>
-        </table>
-    </div>
-
-    <div class="content">
-
-        <div class = "app-info" style="padding-left: 0%;">
-            <div>
-                <table>
-                    <tr><td><div class="info-container" > About</div></td></tr>
-                    <tr><td><span style="font-size: large;">Use internet database to find anyone's mobile number by name. Its super easy to use and you can find mobile number of person within minutes </span> </td></tr>
-                    <tr><td><div class="info-container">How to use ?</div></td></tr>
-                    <tr><td><span style=" font-size: large;">Just enter the name of person <br>you can also save the number to contacts if you want</span> </td></tr>
-                    <tr><td><div style="margin: 60px; margin-left: 0px;"> <a href = "https://play.google.com/store/apps/details?id=com.hjlabs.searchmobilenumber" target="_blank"><img src="./components/trynow-link.png"> </a></div></td></tr>
-                </table>
+        <!-- SWiBoard App -->
+        <div class="row app-info my-4 py-3">
+            <div class="col-12 col-md-4 text-center">
+                <img class="img-fluid" src="/components/swiboard-logo.png">
+            </div>
+            <div class="col-12 col-md-8">
+                <h2 class="app-heading">SWiBoard : Tasmota MQTT Control</h2>
+                <h3>About</h3>
+                <p>Allows users to control their Tasmota devices from anywhere in the world using MQTT configured Tasmota device. It automatically configures the app using MQTT.</p>
+                <h3>How to use?</h3>
+                <p>Step 1: Connect Tasmota device to internet enabled wifi connection.<br>Step 2: Configure MQTT inside Tasmota device.</p>
+                <a href="https://play.google.com/store/apps/details?id=in.hjlabs.swiboard" target="_blank" class="download-btn">Try Now</a>
             </div>
         </div>
-        <div class = "mobile-image"><img src="/components/searchmobile-mockup.png" style=" align-self: end; "> <img src="./components/searchmobile-mockup2.png" style=" align-self: end; "> </div>
+
+        <div class="row app-img">
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="/components/swiboard-mockup2.png">
+            </div>
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="/components/swiboard-mockup.png">
+            </div>
+        </div>
+
+        <!-- Search Mobile Number App -->
+        <div class="row app-info my-4 py-3">
+            <div class="col-12 col-md-4 text-center">
+                <img class="img-fluid" src="/components/searchmobile-logo.png">
+            </div>
+            <div class="col-12 col-md-8">
+                <h2 class="app-heading">Search Mobile Number</h2>
+                <h3>About</h3>
+                <p>Use internet database to find anyone's mobile number by name. It's super easy to use, and you can find the mobile number of a person within minutes.</p>
+                <h3>How to use?</h3>
+                <p>Just enter the name of the person.<br>You can also save the number to contacts if you want.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.hjlabs.searchmobilenumber" target="_blank" class="download-btn">Try Now</a>
+            </div>
+        </div>
+
+        <div class="row app-img">
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="/components/searchmobile-mockup.png">
+            </div>
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="/components/searchmobile-mockup2.png">
+            </div>
+        </div>
     </div>
-</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

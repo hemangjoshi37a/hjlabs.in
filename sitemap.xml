@@ -23,7 +23,7 @@
 	<url>
 		<loc>https://www.hjlabs.in/contact-us.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-05-06</lastmod>
+		<lastmod>2023-06-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/dei.html</loc>
@@ -38,7 +38,7 @@
 	<url>
 		<loc>https://www.hjlabs.in/footer.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-05-14</lastmod>
+		<lastmod>2023-06-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/industries</loc>
@@ -48,17 +48,17 @@
 	<url>
 		<loc>https://www.hjlabs.in/nav.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-05-16</lastmod>
+		<lastmod>2023-06-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/packages.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-04-30</lastmod>
+		<lastmod>2023-06-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/privacy-policy.html</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-05-14</lastmod>
+		<lastmod>2023-06-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/ratings.html</loc>
@@ -68,7 +68,7 @@
 	<url>
 		<loc>https://www.hjlabs.in/services</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-05-06</lastmod>
+		<lastmod>2023-06-17</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/services.html</loc>
@@ -79,6 +79,11 @@
 		<loc>https://www.hjlabs.in/test.html</loc>
 		<priority>0.75</priority>
 		<lastmod>2023-05-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.hjlabs.in/mail.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-05-19</lastmod>
 	</url>
 	<url>
 		<loc>https://www.hjlabs.in/industries/Agriculture</loc>

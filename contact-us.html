@@ -24,61 +24,30 @@
             margin-bottom: 20px;
         }
 
-        #order-form {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 5px;
-            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+        .contact-link {
+            display: flex;
+            align-items: center;
             margin-bottom: 20px;
+            text-decoration: none;
         }
 
-        .section-header {
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-        }
-
-        .btn-primary:hover {
-            background-color: #0069d9;
-            border-color: #0062cc;
+        .contact-link i {
+            margin-right: 10px;
+            font-size: 24px;
+            color: #007bff;
         }
     </style>
 </head>
 
 <body>
     <div id="navbar"></div>
-    <!-- Order Form -->
-    <section id="order-form" class="container">
-        <h2 class="section-header">Get Started Today</h2>
-        <form id="contact-form" onsubmit="submitForm(event)">
-            <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email" required>
-            </div>
-            <div class="form-group">
-                <label for="company">Company Name</label>
-                <input type="text" class="form-control" id="company" placeholder="Enter your company name">
-            </div>
-            <div class="form-group">
-                <label for="service">Service</label>
-                <input type="text" class="form-control" id="service" placeholder="Enter the service you need" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Additional Information</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Provide more details about your project"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+    <!-- Contact Links -->
+    <section class="container">
+        <h2 class="section-header">Contact Us Today</h2>
+        <a href="https://wa.me/+917016525813" class="contact-link" target="_blank"><i class="bi bi-whatsapp"></i>Chat with us on WhatsApp</a>
+        <a href="https://t.me/hjLabs" class="contact-link" target="_blank"><i class="bi bi-telegram"></i>Message us on Telegram</a>
+        <a href="mailto:info@hjlabs.in" class="contact-link"><i class="bi bi-envelope-fill"></i>Email us</a>
+        <a href="tel:+917016525813" class="contact-link"><i class="bi bi-telephone-fill"></i>Call us</a>
     </section>
 
     <!-- Footer -->
@@ -93,30 +62,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="scripts.js" crossorigin="anonymous"></script>
     <script src="load-navbar.js" crossorigin="anonymous"></script>
-    <script>
-        function submitForm(event) {
-            // Prevent the default form submission behavior
-            event.preventDefault();
-            // Get form data
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const company = document.getElementById("company").value;
-            const service = document.getElementById("service").value;
-            const message = document.getElementById("message").value;
-            // Create the message for Tawk.to
-            const chatMessage = `
-              Name: ${name}
-              Email: ${email}
-              Company: ${company}
-              Service: ${service}
-              Additional Information: ${message}
-            `;
-            // Send the message to Tawk.to
-            Tawk_API.sendMessage(chatMessage);
-            // Clear the form
-            document.getElementById("contact-form").reset();
-        }
-    </script>
     <script src="tawk-to.js" crossorigin="anonymous"></script>
 </body>
 

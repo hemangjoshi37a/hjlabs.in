@@ -1,7 +1,6 @@
 <html>
 
 <head>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -9,33 +8,18 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" crossorigin="anonymous">
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/644178134247f20fefecdbf0/1gufrq44r';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
-  <!--End of Tawk.to Script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 
 <body>
-  <!-- Navigation bar -->
   <header>
     <nav id="navbar"></nav>
   </header>
-  <!-- Services -->
   <div class="container mb-3">
     <ol class="breadcrumb" id="breadcrumb"></ol>
   </div>
   <section class="jumbotron text-center">
     <div class="container">
-      <div class="mb-5"></div>
       <h1 class="display-6 mb-5">Unleash the Power of AI with hjLabs.in</h1>
       <p class="lead mb-5">Discover our cutting-edge AI services, tailored to meet your business needs. Explore Sentiment Analysis, Custom
         Chatbot AI, Text Summarization, Machine Translation, Information Extraction, and Data Augmentation solutions that empower your
@@ -45,69 +29,41 @@
 
   <section id="services" class="container">
     <h2 class="spacing">Services</h2>
-    <div class="row">
-      <div class="col-md-4 service-item">
-        <a href="./sentiment">
-          <img src="./pics/sentiment-analysys.png" alt="Sentiment Analysis" class="img-fluid">
-          <h3 class="service-title">Sentiment Analysis</h3>
-          <p class="service-description">Unlock the power of customer opinions with our cutting-edge Sentiment Analysis service.
-            Leverage
-            Python NLP techniques to uncover valuable insights from diverse datasets.</p>
-        </a>
-      </div>
-      <div class="col-md-4 service-item">
-        <a href="./chatbot">
-          <img src="./pics/chatbot.png" alt="Custom Chatbot AI" class="img-fluid">
-          <h3 class="service-title">Custom Chatbot AI</h3>
-          <p class="service-description">Revolutionize your customer service with our tailor-made AI chatbots. Empower your business
-            with
-            intelligent and engaging bots that guide you every step of the way.</p>
-        </a>
-      </div>
-      <div class="col-md-4 service-item">
-        <a href="./summarization">
-          <img src="./pics/text_summerization.png" alt="Service Image" class="img-fluid">
-          <h3 class="service-title">Text Summarization</h3>
-          <p class="service-description">Condense lengthy documents effortlessly with our Text Summarization service. Utilize NLP,
-            Huggingface, and BERT models to grasp content quickly and efficiently.</p>
-        </a>
-      </div>
-      <div class="col-md-4 service-item">
-        <a href="./translation">
-          <img src="./pics/machine-translation.png" alt="Service Image" class="img-fluid">
-          <h3 class="service-title">Machine Translation</h3>
-          <p class="service-description">Bridge language barriers with our advanced Machine Translation services. Harness NLP
-            techniques and
-            Google's translation technology for seamless communication.</p>
-        </a>
-      </div>
-      <div class="col-md-4 service-item">
-        <a href="./ner">
-          <img src="./pics/token-classification.png" alt="Service Image" class="img-fluid">
-          <h3 class="service-title">Information Extraction</h3>
-          <p class="service-description">Discover hidden gems in unstructured text with our Information Extraction solutions. Leverage
-            NLP
-            techniques and Huggingface models to extract valuable insights with ease.</p>
-        </a>
-      </div>
-      <div class="col-md-4 service-item">
-        <a href="./data-augmentation">
-          <img src="./../pics/data-augmentation.png" alt="Data Augmentation" class="img-fluid">
-          <h3 class="service-title">Data Augmentation</h3>
-          <p class="service-description">Enhance your datasets with our Data Augmentation services. Improve model performance by generating
-            diverse and robust training data for machine learning applications.</p>
-        </a>
-      </div>
+    <div class="row" id="services-container">
+      <!-- Service items will be dynamically generated here -->
     </div>
   </section>
-
-
+  
   <div class="footer">
     <div id="footer"></div>
   </div>
 
-
   <script src="main.js" crossorigin="anonymous"></script>
+  <script src="./../tawk-to.js" crossorigin="anonymous"></script>
+  <script>
+    // Load CSV file and generate service cards
+    Papa.parse("services.csv", {
+      download: true,
+      header: true,
+      complete: function (results) {
+        let services = results.data;
+        let container = document.getElementById("services-container");
+
+        services.forEach(service => {
+          let card = `
+              <div class="col-md-4 service-item">
+                <a href="./${service['name']}">
+                  <img src="${service['image_file_path']}" alt="${service['name']}" class="img-fluid">
+                  <h3 class="service-title">${service['name']}</h3>
+                  <p class="service-description">${service['description']}</p>
+                </a>
+              </div>
+              `;
+          container.innerHTML += card;
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
