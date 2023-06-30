@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,113 +7,84 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
         body {
-            background: #f8f9fa;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
         }
-        
-        .app-heading {
-            border-bottom: 1px solid #e5e5e5;
-            padding-bottom: 10px;
+
+        h1, h2 {
+            font-weight: 600;
         }
-        
+
         .app-info {
             background: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-out;
         }
-        
-        .img-fluid {
+
+        .app-info:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-img img {
+            border-radius: 15px;
             max-width: 100%;
             height: auto;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        
-        .app-img {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
-        
-        .app-img img {
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        
-        .info-container {
-            margin-top: 20px;
-        }
-        
+
         .download-btn {
             display: inline-block;
-            background: #ff6347;
+            background: #2c3e50;
             color: #fff;
-            padding: 10px 20px;
+            padding: 10px 30px;
             border-radius: 50px;
             text-decoration: none;
             transition: background .3s;
+            font-weight: 600;
         }
-        
+
         .download-btn:hover {
-            background: #ee5a24;
+            background: #1a252f;
+        }
+
+        .lead.text-muted {
+            color: #777;
         }
     </style>
 </head>
 
 <body>
     <div class="container mt-5">
-        <div class="row mb-4">
-            <div class="col-12 text-center">
-                <h1 class="font-weight-light">Try our <span class="text-primary">apps</span></h1>
-                <p class="lead text-muted">Explore our selection of the best free apps.</p>
-            </div>
+        <div class="text-center">
+            <h1>Try our <span class="text-primary">apps</span></h1>
+            <p class="lead text-muted">Explore our selection of the best free apps.</p>
         </div>
 
-        <!-- SWiBoard App -->
-        <div class="row app-info my-4 py-3">
+        <!-- App Display -->
+        <div class="row app-info my-5">
             <div class="col-12 col-md-4 text-center">
-                <img class="img-fluid" src="/components/swiboard-logo.png">
+                <img src="/components/swiboard-logo.png" class="app-img img-fluid">
             </div>
             <div class="col-12 col-md-8">
-                <h2 class="app-heading">SWiBoard : Tasmota MQTT Control</h2>
-                <h3>About</h3>
-                <p>Allows users to control their Tasmota devices from anywhere in the world using MQTT configured Tasmota device. It automatically configures the app using MQTT.</p>
-                <h3>How to use?</h3>
-                <p>Step 1: Connect Tasmota device to internet enabled wifi connection.<br>Step 2: Configure MQTT inside Tasmota device.</p>
+                <h2>SWiBoard : Tasmota MQTT Control</h2>
+                <p>Allows users to control their Tasmota devices from anywhere in the world using MQTT configured Tasmota device.</p>
                 <a href="https://play.google.com/store/apps/details?id=in.hjlabs.swiboard" target="_blank" class="download-btn">Try Now</a>
             </div>
         </div>
 
-        <div class="row app-img">
-            <div class="col-12 col-md-6">
-                <img class="img-fluid" src="/components/swiboard-mockup2.png">
-            </div>
-            <div class="col-12 col-md-6">
-                <img class="img-fluid" src="/components/swiboard-mockup.png">
-            </div>
-        </div>
-
-        <!-- Search Mobile Number App -->
-        <div class="row app-info my-4 py-3">
+        <div class="row app-info my-5">
             <div class="col-12 col-md-4 text-center">
-                <img class="img-fluid" src="/components/searchmobile-logo.png">
+                <img src="/components/searchmobile-logo.png" class="app-img img-fluid">
             </div>
             <div class="col-12 col-md-8">
-                <h2 class="app-heading">Search Mobile Number</h2>
-                <h3>About</h3>
-                <p>Use internet database to find anyone's mobile number by name. It's super easy to use, and you can find the mobile number of a person within minutes.</p>
-                <h3>How to use?</h3>
-                <p>Just enter the name of the person.<br>You can also save the number to contacts if you want.</p>
+                <h2>Search Mobile Number</h2>
+                <p>Use internet database to find anyone's mobile number by name.</p>
                 <a href="https://play.google.com/store/apps/details?id=com.hjlabs.searchmobilenumber" target="_blank" class="download-btn">Try Now</a>
-            </div>
-        </div>
-
-        <div class="row app-img">
-            <div class="col-12 col-md-6">
-                <img class="img-fluid" src="/components/searchmobile-mockup.png">
-            </div>
-            <div class="col-12 col-md-6">
-                <img class="img-fluid" src="/components/searchmobile-mockup2.png">
             </div>
         </div>
     </div>
@@ -122,5 +92,4 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-
 </html>

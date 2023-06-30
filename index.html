@@ -29,10 +29,42 @@
   <div id="imported-content"></div>
   <style>
 
+    .card {
+      transition: transform .2s;
+      border-radius: 15px;
+  }
+  
+  .card:hover {
+      transform: scale(1.02); 
+  }
+  
+  .card-title {
+      color: #333;
+      font-weight: bold;
+  }
+  
+  .card-text {
+      color: #777;
+  }
+  
+  .carousel-control-next, .carousel-control-prev {
+      background-color: rgba(252, 249, 249, 0.014);
+      border-radius: 50%;
+  }
+  
+  .spacing {
+      letter-spacing: 3px;
+      font-weight: bold;
+  }
+  
+
   </style>
 
   <div id="fluid-background"></div>
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-958945159"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-958945159'); </script>
 
 </head>
 
@@ -76,6 +108,42 @@
     <!-- try our apps -->
     <div id="tryapp-placeholder"></div>
     <!-- <div style="background-color: red;">sdsdsdfsdfsdf</div> -->
+    <section id="portfolio" class="container py-5">
+      <div class="text-center pb-4">
+          <h2 class="spacing">Our Web Portfolio</h2>
+          <p>We have built numerous high-quality, impactful websites. Here are a few that we're particularly proud of:</p>
+      </div>
+      <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <a href="https://www.autoactionhub.com/" target="_blank" class="carousel-item active text-decoration-none">
+                  <div class="card border-0 shadow-lg">
+                      <img src="/pics/aah_sccr.png" class="d-block w-100 card-img-top img-fluid" alt="Screenshot of Auto Action Hub website">
+                      <div class="card-body">
+                          <h5 class="card-title">Auto Action Hub</h5>
+                          <p class="card-text">A user-driven platform similar to Quora or Reddit where users can vote for posts up or down.</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="https://smn.hjlabs.in/" target="_blank" class="carousel-item text-decoration-none">
+                  <div class="card border-0 shadow-lg">
+                      <img src="/pics/smn_scr.png" class="d-block w-100 card-img-top img-fluid" alt="Screenshot of SMN website">
+                      <div class="card-body">
+                          <h5 class="card-title">SMN - Search Mobile Numbers</h5>
+                          <p class="card-text">A useful tool for searching mobile numbers using a person's name, like old-time phonebooks.</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </section>
   
 
     <!-- Add the sections with the new styling -->
@@ -109,4 +177,5 @@
   <script src="scripts.js" crossorigin="anonymous"></script>
   <script src="tawk-to.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

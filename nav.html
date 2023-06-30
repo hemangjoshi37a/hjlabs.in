@@ -24,9 +24,17 @@
       -webkit-text-stroke: 1px #000000;
       /* Stroke width and color */
     }
+
     .navbar-icon {
-      width:20px;
-      height:20px;
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   </style>
 </head>
@@ -60,35 +68,88 @@
           <li class="nav-item">
             <a class="nav-link" href="/career.html">Career</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/hemangjoshi37a" target="_blank">
-              <img class="navbar-icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Social Links
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://play.google.com/store/apps/dev?id=6100555638019921497" target="_blank">
-              <img class="navbar-icon" src="/pics/google-play-arrow-png-logo-8.png" alt="Google Play">
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://huggingface.co/hemangjoshi37a" target="_blank">
-              <img class="navbar-icon" src="/pics/hf-logo.png" alt="Huggingface">
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.youtube.com/channel/UC0ptCKj6xe10dPdV6H_JEpA" target="_blank">
-              <img class="navbar-icon" src="/pics/Youtube_logo.png" alt="YouTube">
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://grabcad.com/hemang.joshi-1" target="_blank">
-              <img class="navbar-icon" src="/pics/grabcad-logo.png" alt="GrabCAD">
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.google.com/search?q=hjlabs.in&sxsrf=APwXEddrRbZzJSJNQN7lulb5HXg1CwAUGg%3A1684655165907&source=hp&ei=PcxpZKmZNYePoAS_uqygBg&iflsig=AOEireoAAAAAZGnaTY5Pwdy_--2yVi6nKLQZDJ1L-zqx&oq=hjlabs&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIKCC4QgAQQ5QQQCjIQCC4QgAQQxwEQ0QMQ1AIQCjIHCAAQgAQQCjIKCC4QgAQQ5QQQCjIHCAAQgAQQCjIKCC4QgAQQ5QQQCjIKCC4QgAQQ5QQQCjINCC4QgAQQ5QQQ1AIQCjoHCCMQ6gIQJzoNCC4QxwEQ0QMQ6gIQJzoHCCMQigUQJzoLCAAQgAQQsQMQgwE6BwguEIoFEEM6BQgAEIAEOgsILhCABBCxAxCDAToRCC4QgwEQxwEQsQMQ0QMQgAQ6CwgAEIoFELEDEIMBOggIABCABBCxAzoLCC4QgAQQxwEQrwE6EQguEIAEELEDEIMBEMcBENEDOhAILhCABBCxAxCDARDlBBAKOg0IABCABBCxAxCDARAKUNgHWPsWYPcdaAFwAHgAgAGqBogB2A6SAQkwLjIuMy42LTGYAQCgAQGwAQo&sclient=gws-wiz#lrd=0x395e87e2925d890f:0xd360006b23146cef,1,,,," target="_blank">
-              <img class="navbar-icon" src="/pics/Google__G__Logo.svg.png" alt="Google Business">
-            </a>
+            <ul class="dropdown-menu" aria-labelledby="socialDropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/hemangjoshi37a" target="_blank">
+                  <img class="navbar-icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Google Play">
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="https://play.google.com/store/apps/dev?id=6100555638019921497" target="_blank">
+                  <img class="navbar-icon" src="/pics/google-play-arrow-png-logo-8.png" alt="Google Play">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://huggingface.co/hemangjoshi37a" target="_blank">
+                  <img class="navbar-icon" src="/pics/hf-logo.png" alt="Huggingface">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/channel/UC0ptCKj6xe10dPdV6H_JEpA" target="_blank">
+                  <img class="navbar-icon" src="/pics/Youtube_logo.png" alt="YouTube">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://grabcad.com/hemang.joshi-1" target="_blank">
+                  <img class="navbar-icon" src="/pics/grabcad-logo.png" alt="GrabCAD">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.google.com/search?q=hjlabs.in&sxsrf=APwXEddrRbZzJSJNQN7lulb5HXg1CwAUGg%3A1684655165907&source=hp&ei=PcxpZKmZNYePoAS_uqygBg&iflsig=AOEireoAAAAAZGnaTY5Pwdy_--2yVi6nKLQZDJ1L-zqx&oq=hjlabs&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIKCC4QgAQQ5QQQCjIQCC4QgAQQxwEQ0QMQ1AIQCjIHCAAQgAQQCjIKCC4QgAQQ5QQQCjIHCAAQgAQQCjIKCC4QgAQQ5QQQCjIKCC4QgAQQ5QQQCjINCC4QgAQQ5QQQ1AIQCjoHCCMQ6gIQJzoNCC4QxwEQ0QMQ6gIQJzoHCCMQigUQJzoLCAAQgAQQsQMQgwE6BwguEIoFEEM6BQgAEIAEOgsILhCABBCxAxCDAToRCC4QgwEQxwEQsQMQ0QMQgAQ6CwgAEIoFELEDEIMBOggIABCABBCxAzoLCC4QgAQQxwEQrwE6EQguEIAEELEDEIMBEMcBENEDOhAILhCABBCxAxCDARDlBBAKOg0IABCABBCxAxCDARAKUNgHWPsWYPcdaAFwAHgAgAGqBogB2A6SAQkwLjIuMy42LTGYAQCgAQGwAQo&sclient=gws-wiz#lrd=0x395e87e2925d890f:0xd360006b23146cef,1,,,," target="_blank">
+                  <img class="navbar-icon" src="/pics/Google__G__Logo.svg.png" alt="Google Business">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://linktr.ee/hemangjoshi37a" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/linktree.webp" alt="Linktree">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.upwork.com/freelancers/~01f8472aba2f7f310a" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/upwork.png" alt="Upwork">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://gitlab.com/hemangjoshi37a" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/gitlab.png" alt="GitLab">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/HemangJ81509525" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/twitter.png" alt="Twitter">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://bere.al/hemangjoshi37a" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/bereal.png" alt="BeReal">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/hemangjoshi37" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/facebook.png" alt="Facebook">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/hemangjoshi37" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/Instagram.webp" alt="Instagram">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/hemang-joshi-046746aa" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/linkedin.png" alt="LinkedIn">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.snapchat.com/add/hemangjoshi37a" target="_blank">
+                  <img class="navbar-icon" src="/pics/icons/snapchat.png" alt="Snapchat">
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -96,4 +157,5 @@
   </nav>
 
 </body>
+
 </html>
